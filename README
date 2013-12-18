@@ -1,0 +1,8 @@
+Installation:
+
+yum install python-GeoIP
+sudo python setup.py develop
+
+
+Usage:
+tracemap pirateradiotheater.org
