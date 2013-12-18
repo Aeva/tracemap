@@ -68,7 +68,7 @@ def mains():
     print "Running traceroute, please wait..."
     route = lookup(target)
 
-    for i, location in zip(range(len(path)), route):
+    for i, location in zip(range(len(route)), route):
         msg = " - {0}: ".format(i+1)
         if location:
             msg += " ".join(map(str, location))
